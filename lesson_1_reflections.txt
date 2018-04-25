@@ -1,0 +1,37 @@
+
+To compare differences between 2 files:
+diff -u old_one new_one
+
+
+Different ways for version-control:
+-Manual
+-Dropbox
+-Google doc
+-Wikipedia
+-Git
+-SVN
+
+To see history of commits: git log
+To compare different commits: diff -u [commit id] [commit id]
+
+When to Commit: One Commit Per Logical Change
+
+Repository: track multiple files together
+
+>>>git log --stat  :gives some statistics about which files have changed in eachcommit
+
+>>>git config --global color.ui auto : To get colored diff output
+
+>>>git diff [old commit id] [new commit id]
+
+Git Errors and Warnings Solution
+Should not be doing an octopus
+Octopus is a strategy Git uses to combine many different versions of code together. This message can appear if you try to use this strategy in an inappropriate situation.
+
+You are in 'detached HEAD' state
+HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
+
+>>> git checkout [commit id] to go back previous commit and activate it
+
+
+
