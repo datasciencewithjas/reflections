@@ -34,4 +34,30 @@ HEAD is what Git calls the commit you are currently on. You can “detach” the
 >>> git checkout [commit id] to go back previous commit and activate it
 
 
+To find the bug:
+	1. git checkout [commit ids] until you find the bug
+	2. git diff [bug commit id] [previous commit id] 
+
+>> git init ==> to initialize git repository
+
+>> git status ==>  to check the git status of repository
+
+>> git add <untracked file>
+
+>> git reset [file]  ==> to remove file from staging area
+>> git reset --hard  ==> to remove all files from staging area
+
+>> git diff                 ==> compares working dir and staging dir
+>> git diff --staged        ==> compares staging dir and commit1(last commit)
+>> git diff commit1 commit2 ==> compares 2 commits 
+
+>> git branch [branch name] ==> making new branch
+>> git checkout [branch name] ==> change to new branch
+
+>> git log --graph --oneline master coins ==> The full command Caroline types to see the visual representation of the commit history
+
+>> git checkout -b  [branch name] == git branch [branch name] AND git checkout [branchname]
+
+>> git checkout [commit id] ==> when we are here, if you do some changes, it will be lost, unless we do git checkout -b  [branch name] 
+
 
