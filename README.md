@@ -57,7 +57,7 @@ This will be done by **Preprocessing Step**.
 For forecasting, only univariate time series(number of calls) were used.
 
 <p align="center">
-  <img src="./Doc/timeseries_dataframe.png">
+  <img src="ts.png">
 </p>
 ## Build and Train ARIMA Model
 
@@ -78,13 +78,13 @@ But number of cycle should be tuned more when there will be available memory for
 First,line plot in HTML format for **predicted** and **actual** number of calls will be created and placed inside charts folder.
 
 <p align="center">
-  <img src="./Doc/timeseries_dataframe.png">
+  <img src="line.png">
 </p>
 
 Then, HTML table will be also created and placed in inside charts folder.
 
 <p align="center">
-  <img src="./Doc/timeseries_dataframe.png">
+  <img src="table.png">
 </p>
 
 ## Requirements
