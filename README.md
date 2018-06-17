@@ -28,7 +28,7 @@ Since this is Jupyter Notebook, we have to first install **runipy**
 
 Then on command line:
 
-**runipy <name-of-jupyter-notebook>.ipyng**
+**runipy name-of-jupyter-notebook.ipyng**
 
 
 ## Importing Data
